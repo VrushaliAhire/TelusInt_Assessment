@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script  src="FormValidation.js"></script>
+       
+        </head>
+    <body>
+        <form name="RegForm"  >
+        <table border="0" align="center">
+            <tr>
+                <table border="0">
+                    <tr>
+                        <td colspan="2" align="Center">Registration Form</td>
+                    </tr>
+                    <tr>
+                        <td>Full Name</td>
+                        <td><input type="text" id="txtName"></td>
+                    </tr>
+                    <tr>
+                        <td>Email ID</td>
+                        <td><input type="email" id="txtEmail"></td>
+                    </tr>
+                    <tr>
+                        <td>Flexible</td>
+                        <td><input type="checkbox" id="checkbox" onclick="checkBoxClicked(event)"> </td>
+                    </tr>
+                    <tr>
+                        <td>Days for availability</td>
+                        <td><input type="text" id="numavailability"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" align="center"><input type="button" onclick="validateForm()" value="SAVE" id="btnSubmit"></td>
+                    </tr>
+
+                </table>
+            </tr>
+        </table>
+    </form>
+    </body>
+</html>
